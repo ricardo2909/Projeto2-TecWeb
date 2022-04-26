@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'getit.urls'
+ROOT_URLCONF = 'ClimaTempo.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'getit.wsgi.application'
+WSGI_APPLICATION = 'ClimaTempo.wsgi.application'
 
 
 # Database
